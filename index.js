@@ -21,3 +21,18 @@ console.log(primeNumber(5));
 console.log(primeNumber(2));
 console.log(primeNumber(25));
 
+// even odd check in check even oddbranch
+console.log("Even Odd Function")
+function evenOdd(num){
+    if(num%2==0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(evenOdd(5));
+console.log(evenOdd(2));
+console.log(evenOdd(8));
+console.log(evenOdd(3));
